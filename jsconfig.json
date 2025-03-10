@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // This sets the root directory for module resolution
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/assets/*": ["./assets/*"],
+      "@/components/*": ["./components/*"]
     }
   }
 }
